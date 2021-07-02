@@ -1,12 +1,18 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style/main.css">
+    <!--owl css-->
+    <link rel="stylesheet" href="/style/owl/owl.carousel.min.css">
+    <link rel="stylesheet" href="/style/owl/owl.theme.default.min.css">
+    <link rel="stylesheet" href="/style/responsive.css">
     <title>NETFLIX CLONE</title>
 </head>
+
 <body>
     <header>
         <div class="container">
@@ -19,12 +25,13 @@
             </nav>
         </div>
     </header>
-    
+
     <main>
         <div class="filme-principal">
             <div class="container">
                 <h3 class="titulo">The Walking Dead: Um Novo Universo (2020)</h3>
-                <p class="descricao">A série acompanha a primeira geração de jovens que cresceu no mundo pós-apocalíptico de The Walking Dead.</p>
+                <p class="descricao">A série acompanha a primeira geração de jovens que cresceu no mundo
+                    pós-apocalíptico de The Walking Dead.</p>
                 <div class="botoes">
                     <button role="button" class="botao">
                         <i class="fas fa-play"></i>
@@ -39,6 +46,44 @@
 
         </div>
     </main>
-    <script src="https://kit.fontawesome.com/77e6f079b8.js" crossorigin="anonymous"></script>    
+    <div class="carrosel-filmes">
+        <div class="owl-carousel owl-theme">
+            <div class="item">
+                <img class="box-filme" src="/img/2EjUq3eqvDKU4EXh482IQcttcx4.jpeg" alt="" srcset="">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="/img/5cbGVDmRMYVzkq5cItZ7cYlDdDR.jpeg" alt="" srcset="">
+            </div>
+
+            <div class="item">
+                <img class="box-filme" src="/img/8L4Mep3KDUK4ztUgf2HlPvUVzZy.jpeg" alt="" srcset="">
+            </div>
+
+            <div class="item">
+                <img class="box-filme" src="/img/aACAYcMi22NSfkxzSeD0SHDqFrF.jpeg" alt="" srcset="">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="/img/ef2ozkE4AiWwRnyfc9s05sEtAIT.jpeg" alt="" srcset="">
+            </div>
+
+            <div class="item">
+                <img class="box-filme" src="/img/eXjqdCBFg4zjUnc1MbL55hlQmm0.jpeg" alt="" srcset="">
+            </div>
+
+            <div class="item">
+                <img class="box-filme" src="/img/irlz2mCcTUZXMLTUGtHTs1JwnFx.jpeg" alt="" srcset="">
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <script src="https://kit.fontawesome.com/77e6f079b8.js" crossorigin="anonymous"></script>
+    <!--owl javascript-->
+    <script src="/js/owl/jquery.min.js"></script>
+    <script src="/js/owl/owl.carousel.min.js"></script>
+    <script src="/js/owl/main.js"></script>
 </body>
+
 </html>
